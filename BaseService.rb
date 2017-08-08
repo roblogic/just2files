@@ -211,7 +211,7 @@ def delete_user_LSL(idLSL,passwd)
 
   log_msg("@@ PLS Home page")
   assert(ie.pageContainsText("You are not logged on"))
-  assert(ie.pageContainsText("The convenience of an all-of-government logon"))
+  assert(ie.pageContainsText("The convenience of an initech public systems logon"))
   log_msg("good-bye")
 end
 
